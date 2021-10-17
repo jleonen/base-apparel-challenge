@@ -11,6 +11,9 @@
 
 * {
   font-family: Josefin Sans;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,6 +29,7 @@ p {
 span {
   color: hsl(0, 6%, 24%);
   font-weight: 600;
+  display: table-caption;
 }
 
 button {
@@ -33,5 +37,61 @@ button {
   border-radius: 30%;
   padding: 8px 25px;
   width: 74px;
+  height: 44px;
+  position: absolute;
+  right: 55px;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(0, 36%, 85%);
+}
+
+.main-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-flex-container {
+  display: flex;
+  flex-direction: column;
+  padding: 160px;
+  gap: 30px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+.description {
+  line-height: 2;
+  font-size: 20px;
+  width: 500px;
+}
+
+input {
+  border: 1px solid hsl(0, 36%, 70%);
   height: 40px;
+  width: 430px;
+  border-radius: 30px;
+}
+
+.email {
+  position: relative;
+}
+
+header {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-size: 20px;
+  padding: 30px;
 }
