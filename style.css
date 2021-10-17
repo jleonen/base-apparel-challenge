@@ -84,12 +84,14 @@ input {
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
 }
 
-header {
-  font-weight: 600;
+.logo-header {
+  font-weight: 700;
   font-size: 25px;
   margin-bottom: 80px;
+  letter-spacing: 4px;
 }
 
 ::placeholder {
@@ -103,8 +105,15 @@ header {
   font-weight: 100;
 }
 
-/* .inputValue {
-  background-image: url("/images/icon-error.svg");
-  background-repeat: no-repeat;
-  background-position-x: 325px;
-} */
+.logo {
+  display: flex;
+  width: 170px;
+  gap: 10px;
+}
+
+.logo img {
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid hsl(0, 36%, 70%);
+  height: 32px;
+}
