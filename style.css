@@ -1,3 +1,5 @@
+@import url("https://fonts.google.com/specimen/Josefin+Sans");
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +7,31 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: Josefin Sans;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1,
+p {
+  color: hsl(0, 36%, 70%);
+  font-weight: 400;
+}
+
+span {
+  color: hsl(0, 6%, 24%);
+  font-weight: 600;
+}
+
+button {
+  background-color: hsl(0, 36%, 70%);
+  border-radius: 40%;
+  padding: 8px 25px;
+  width: 10px;
+  height: 20px;
 }
